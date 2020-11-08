@@ -1,7 +1,7 @@
 
 public class Prefix {
 	 String[] t;
-     Prefix(int n)
+     	 Prefix(int n)
 	 {
 		 t = new String[n];
 		 for(int i=0;i<n;i++)
