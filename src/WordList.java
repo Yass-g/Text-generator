@@ -127,7 +127,4 @@ class WordList {
 		  
 		  
 	  }
-	  
-	  static WordList foobar = new WordList(new Node("foo", new Node("bar", new Node("baz", null))));
-
 }
