@@ -27,14 +27,4 @@ class WordReader {
     return null;
   }
 
-  public static void main(String[] arg) {
-    final WordReader wr = new WordReader(arg[0]);
-    int counter = 0;
-
-    for (String w = wr.read(); w != null; w = wr.read()) {
-      System.out.println("[" + w + "]");
-      counter++;
-    }
-    System.out.println(counter);
-  }
 }
