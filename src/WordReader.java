@@ -20,7 +20,6 @@ class WordReader {
   public String read() {
     if (this.scanner == null)
       return null;
-
     if (this.scanner.hasNext())
       return scanner.next();
 
