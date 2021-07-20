@@ -4,9 +4,10 @@ class WordList {
 	  WordList() {
 	    content = null;
 	  }
+	
 	  WordList(Node n) {
 		    this.content = n;
-		  }
+	  }
 	  
 	  WordList(String[] t){
 		  for(int i = 0; i<t.length;i++)
@@ -14,6 +15,7 @@ class WordList {
 			  this.addLast(t[i]);
 		  }
 	  }
+	
 	  int length() {
 		  int cnt = 0;
 		  for (Node cur = this.content; cur != null; cur = cur.next) {
@@ -21,6 +23,7 @@ class WordList {
 		  }
 		  return cnt;
 	  }
+	
 	  String print() {
 		  String res = "[";
 		  if(this.content==null)
@@ -112,7 +115,6 @@ class WordList {
 		  }
 		  this.content = sorted.content;
 	  }
-	  
 	  
 	  String[] toArray()
 	  {
