@@ -36,6 +36,7 @@ public class Prefix {
 		 shift.t[n-1]=w;
 		 return shift;
 	 }
+	
 	 public int hashCode()
 	 {
 		 int h = 0;
