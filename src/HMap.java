@@ -6,6 +6,7 @@ public class HMap {
 	{
 		this.t = new EntryList[n];
 	}
+	
 	HMap()
 	{
 		this.t = new EntryList[20];
@@ -26,6 +27,7 @@ public class HMap {
 			return null;
 		return cur.head.value;
 	}
+	
 	void addSimple(Prefix key, String w)
 	{
 		int k = key.hashCode(t.length);
@@ -45,6 +47,7 @@ public class HMap {
 			
 		}
 	}
+	
 	void rehash(int n)
 	{
 		EntryList[] nt = new EntryList[n];
